@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: rgb(255, 255, 255)
+}
+
+h2 {
+    font-weight: 200;
+    text-align: center;
+
+}
+
+/* imagen */
+
+@keyframes logo {
+
+    0% {
+        width: 100px;
+    }
+
+
+    100% {
+        width: 400px;
+    }
+
+
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+
+}
+
+#logo {
+    animation: logo 1s ease-in;
+}
+
+/* imagen */
+
+#opciones {
+    text-align: center;
+    list-style: none;
+}
+
+#opciones li {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.boton {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    border-radius: 5px;
+    display: inline-block;
+}
