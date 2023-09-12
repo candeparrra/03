@@ -37,10 +37,16 @@ h3 {
     border-radius: 5px;
     display: inline-block;
     color: antiquewhite;
-    margin-left: 300px;
+    margin-left: 100px;
     margin-right: 300px;
 
+    
 }
+.botones:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: rgb(192, 19, 19);
+    color: #000;
+}
+
 
 
 @keyframes logo {
