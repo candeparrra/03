@@ -42,7 +42,3 @@ picture img {
     border-radius: 5px;
     display: inline-block;
 }
-.boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
-    background-color: burlywood;
-    color: #000;
-}
